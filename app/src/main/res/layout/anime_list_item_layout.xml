@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/anime_cover"
+        android:layout_width="64dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/anime_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/title_placeholder"
+        app:layout_constraintEnd_toStartOf="@id/select_checkbox"
+        app:layout_constraintStart_toEndOf="@id/anime_cover"
+        app:layout_constraintTop_toTopOf="@id/anime_cover" />
+
+    <TextView
+        android:id="@+id/anime_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/desc_placeholder"
+        app:layout_constraintEnd_toStartOf="@id/select_checkbox"
+        app:layout_constraintStart_toEndOf="@id/anime_cover"
+        app:layout_constraintTop_toBottomOf="@id/anime_title" />
+
+    <CheckBox
+        app:layout_constraintTop_toTopOf="@id/anime_cover"
+        app:layout_constraintBottom_toBottomOf="@id/anime_cover"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/select_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

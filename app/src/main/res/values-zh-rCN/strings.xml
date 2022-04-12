@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_placeholder">标题</string>
+    <string name="desc_placeholder">动漫的简介</string>
+    <string name="uid_and_cookie">UID 与 Cookie</string>
+    <string name="uid">UID</string>
+    <string name="cookie">Cookie</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="import_title">导入</string>
+    <string name="in_progress">处理中</string>
+    <string name="uid_and_cookie_hint">请先输入 UID 与 Cookie</string>
+    <string name="subscribe_all_success_hint">全部完成</string>
+    <string name="err_template">错误: %s</string>
+    <string name="part_success_hint">成功：%d，失败：%d</string>
+</resources>

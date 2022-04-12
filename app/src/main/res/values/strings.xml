@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">BilibiliFork</string>
+    <string name="title_placeholder">title</string>
+    <string name="desc_placeholder">Anime description here</string>
+    <string name="uid_and_cookie">UID and Cookie</string>
+    <string name="uid">UID</string>
+    <string name="cookie">Cookie</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="import_title">Import</string>
+    <string name="in_progress">In Progress</string>
+    <string name="uid_and_cookie_hint">Enter UID and cookie first</string>
+    <string name="subscribe_all_success_hint">All Success</string>
+    <string name="err_template">Error: %s</string>
+    <string name="part_success_hint">Success: %d, failure: %d</string>
+</resources>
